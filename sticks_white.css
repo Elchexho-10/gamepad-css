@@ -1,0 +1,19 @@
+/* Color del stick izquierdo */
+.controller.ds5 .stick.left .stick-bg,
+.controller.ds5 .stick.left .stick {
+    background-color: white !important;
+    filter: brightness(1) !important;
+}
+
+/* Color del stick derecho */
+.controller.ds5 .stick.right .stick-bg,
+.controller.ds5 .stick.right .stick {
+    background-color: white !important;
+    filter: brightness(1) !important;
+}
+
+/* Opcional: hacer el borde blanco también */
+.controller.ds5 .stick,
+.controller.ds5 .stick-bg {
+    border: 2px solid white !important;
+}
